@@ -48,10 +48,6 @@ function Checkout() {
     return '';
   };
 
-  const generateOrderId = () => {
-    return Math.random().toString(36).substr(2, 6); // ID más corto
-  };
-
   const handleBuy = async () => {
     const error = validateInputs();
     if (error) {
