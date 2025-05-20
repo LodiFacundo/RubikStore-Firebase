@@ -1,0 +1,16 @@
+.navbar {
+    background: #afacac;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.position-relative .badge {
+    background-color: #0dcaf0;
+    color: #000;
+}  

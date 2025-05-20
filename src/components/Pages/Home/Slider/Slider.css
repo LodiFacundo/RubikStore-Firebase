@@ -1,0 +1,32 @@
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.rubik-message {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #ffffff;
+  z-index: 1000;
+}
+
+.rubik-message h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.rubik-message p {
+  font-size: 24px;
+}
+
+.carousel-item {
+  transition: filter 0.5s ease;
+}
+
+.carousel-item:hover {
+  filter: blur(5px);
+}
